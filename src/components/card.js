@@ -1,7 +1,6 @@
 import React from 'react'
 
 const card = (props) => {
-	console.log(props.city)
 	return (
 		<div className="card">
 			<img

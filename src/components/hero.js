@@ -51,7 +51,7 @@ const Hero = () => {
 				>
 					<input
 						type="text"
-						placeholder="Quelle ville ?"
+						placeholder="Quel temps à... ?"
 						onChange={(e) => setCity(e.target.value)}
 					/>
 				</form>
