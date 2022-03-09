@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/MeteoApp/static/css/main.addee2db.css",
-    "main.js": "/MeteoApp/static/js/main.80c6d0ed.js",
+    "main.js": "/MeteoApp/static/js/main.ad1f9240.js",
     "static/js/787.13d76ca7.chunk.js": "/MeteoApp/static/js/787.13d76ca7.chunk.js",
     "static/media/clouds.mp4": "/MeteoApp/static/media/clouds.fbaaadf776c6d3f7215e.mp4",
     "index.html": "/MeteoApp/index.html",
     "main.addee2db.css.map": "/MeteoApp/static/css/main.addee2db.css.map",
-    "main.80c6d0ed.js.map": "/MeteoApp/static/js/main.80c6d0ed.js.map",
+    "main.ad1f9240.js.map": "/MeteoApp/static/js/main.ad1f9240.js.map",
     "787.13d76ca7.chunk.js.map": "/MeteoApp/static/js/787.13d76ca7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.addee2db.css",
-    "static/js/main.80c6d0ed.js"
+    "static/js/main.ad1f9240.js"
   ]
 }
