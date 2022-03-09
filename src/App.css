@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+body {
+	font-family: 'Rubik', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.hero {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	position: relative;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hero .overlay {
+	z-index: 0;
+	position: absolute;
+	inset: 0 0 0 0;
+	background-color: rgba(0, 0, 0, 0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hero video {
+	width: 100%;
+	z-index: -1;
 }
-
-.App-link {
-  color: #61dafb;
+form input {
+	font-size: 21px;
+	padding: 10px 20px;
+	background-color: transparent;
+	color: white;
+	border: none;
+	border-bottom: 2px solid white;
+	text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form input::placeholder {
+	color: rgba(255, 255, 255, 0.5);
+}
+form input:focus,
+input:active {
+	outline: none;
+}
+.card {
+	color: white;
+	font-size: 24px;
+	position: absolute;
+	right: 10%;
+	display: flex;
+	align-items: center;
+}
+.card .temperature {
+	font-size: 68px;
+	margin-bottom: 20px;
 }
